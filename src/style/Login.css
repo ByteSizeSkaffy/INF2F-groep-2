@@ -1,0 +1,33 @@
+input {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid rgb(33, 66, 73);
+    border-radius: 10px;
+    outline: none;
+}
+
+input:focus {
+    border: 5px solid rgb(33, 66, 73);
+}
+
+.btn-primary {
+    color: white;
+    border-color: rgb(33,66,73);
+    border-width: 3px;
+    background-color: rgb(65,107,128);
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: rgb(176, 158, 126);
+}
+
+#naam {
+    margin-top: 0px;
+}
