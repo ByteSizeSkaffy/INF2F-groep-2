@@ -28,7 +28,7 @@
           zoom: initialState.zoom
         }));
         map.value.addControl(new NavigationControl(), 'top-right');
-        new Marker({color: "#00d80d"})
+        new Marker({color: $store.state.marker_color})
             .setLngLat([4.328815,52.039943])
             .addTo(map.value);
         new Marker({color: "#00d80d"})

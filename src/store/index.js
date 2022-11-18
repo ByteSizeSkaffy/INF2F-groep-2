@@ -5,7 +5,8 @@ export default createStore({
     state: {
         name: "",
         email: "",
-        licenseplate: ""
+        licenseplate: "",
+        marker_color: "#fff"
     },
     getters: {
     },
